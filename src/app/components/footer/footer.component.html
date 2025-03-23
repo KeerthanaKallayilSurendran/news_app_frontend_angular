@@ -1,0 +1,22 @@
+<div class="container-fluid w-100 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+               <h1 class="logo">News</h1>
+            </div>
+            <div class="col-4 pt-4">
+                <p>© Copyright News Limited 2025. All rights reserved.</p>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-4">
+                <h4>Follow Us</h4>
+                <div class="d-flex gap-3 flex-wrap">
+                    @for (item of socialLinks; track $index) {
+                         <a class="text-decoration-none text-white fs-5" [href]="item.url" target="_blank"><i [class]="'fa-brands fa-' + item.name "></i></a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

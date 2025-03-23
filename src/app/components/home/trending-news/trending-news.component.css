@@ -1,0 +1,17 @@
+.tn-card{
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+}
+
+.tn-link{
+    text-decoration: none;
+    color: grey;
+    text-align: justify;
+    display: block;
+}
+
+.tn-link:hover{
+    text-decoration: underline;
+    color: black;
+}

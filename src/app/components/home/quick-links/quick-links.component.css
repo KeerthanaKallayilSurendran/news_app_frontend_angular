@@ -1,0 +1,14 @@
+.ql-btn{
+    background-color: rgb(221, 219, 219);
+    border: none;
+}
+
+.ql-card{
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+}
+
+.ql-btn:hover{
+    background-color: rgb(158, 156, 156);
+}
