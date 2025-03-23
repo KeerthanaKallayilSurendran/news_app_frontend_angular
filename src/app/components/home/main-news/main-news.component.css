@@ -1,0 +1,22 @@
+.mn-hr{
+    border: 1px solid #555454;
+}
+
+.mn-link{
+    text-decoration: none;
+    color: #202020;
+
+}
+
+.mn-time{
+    color: #555454;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+}
+
+.mn-content{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    color: #202020;
+    text-align: justify;
+}
